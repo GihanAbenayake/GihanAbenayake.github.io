@@ -154,6 +154,18 @@ input, select, textarea {
 		line-height: 2.375;
 	}
 
+	#nameplate {
+
+		padding: 1%;
+		top: 0;
+		text-align: center;
+		position: sticky;
+		z-index: 9999;
+		h1 {
+			color: #eeeeee;
+		}
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -262,7 +274,7 @@ input, select, textarea {
 			display: block;
 			line-height: 1.75;
 			padding: 1rem 1.5rem;
-			overflow-x: auto;
+			
 		}
 
 	hr {
@@ -2110,7 +2122,7 @@ input, select, textarea {
 			line-height: 4rem;
 			border-radius: 4rem;
 			text-indent: 4rem;
-			overflow: hidden;
+			
 			padding: 0;
 			white-space: nowrap;
 		}
@@ -2659,7 +2671,7 @@ input, select, textarea {
 		}
 
 	a.image {
-		overflow: hidden;
+		
 	}
 
 		a.image img {
@@ -2907,7 +2919,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	header {
+	.header {
 		cursor: default;
 	}
 
@@ -3004,7 +3016,7 @@ input, select, textarea {
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
+	
 	}
 
 	table {
@@ -3224,7 +3236,7 @@ input, select, textarea {
 		transition: opacity 0.5s ease;
 		position: relative;
 		z-index: 1;
-		overflow: hidden;
+		
 	}
 
 		#wrapper > .bg {
@@ -3619,7 +3631,6 @@ input, select, textarea {
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
-		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
@@ -4567,7 +4578,7 @@ input, select, textarea {
 		color: #212931;
 		height: 100%;
 		max-width: 80%;
-		overflow-y: auto;
+
 		padding: 3rem 2rem;
 		position: fixed;
 		right: 0;

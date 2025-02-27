@@ -24,7 +24,6 @@
 			xsmall:    ['361px',    '480px'    ],
 			xxsmall:   [null,       '360px'    ]
 		});
-
 	/**
 	 * Applies parallax scrolling to an element's background image.
 	 * @return {jQuery} jQuery object.
